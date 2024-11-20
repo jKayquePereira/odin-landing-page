@@ -126,11 +126,17 @@ li {
 
 .baixo-botao {
     display: flex;
-    flex-flow: row;
-    gap: 50px;
+    flex-flow: row wrap;
+    /*align-items: center;*/
+
+    height: 190px;
+    border: 5px solid red
 }
 
 .baixo-botao button {
+
+    margin-left: 50px;
+
     background-color: saddlebrown;
     border-color: saddlebrown;
     color: white;
