@@ -91,3 +91,13 @@ li {
 }
 
 /*terceira caixa*/
+
+.texto {
+
+    display: flex;
+    text-align: center;
+    font-size: 48px;
+    flex-wrap: wrap;
+
+    background-color: coral;
+}
