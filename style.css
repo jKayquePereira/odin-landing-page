@@ -59,6 +59,7 @@ li {
  /*segunda caixa*/
 
 .yordles {
+    display: flex;
     flex: auto;
     height: 250px;
     background-color: saddlebrown;
@@ -66,8 +67,11 @@ li {
     margin: 0;
     padding: 0;
 
+    /*border: 5px solid green;*/
 
 
+    justify-content: center;
+    align-items: center;
 }
 
 .imgs {
@@ -76,15 +80,13 @@ li {
     /*border: 5px solid green;*/
 
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+
+    max-width: 375px;
 }
 
 .imgs img {
     height: 10vh;
-
     margin: 25px;
-
     flex: 0 0 auto;
 
     /*border: 5px solid red;*/
