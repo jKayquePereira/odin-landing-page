@@ -11,17 +11,21 @@ body {
 
 .container {
     display: flex;
-
+    flex-flow: column;
 }
+
+
+/* primeira caixa*/
 
 .links {
     flex: auto;
     background-color: saddlebrown;
 
-    height: 150px;
+    height: 100px;
 
-    /*margin: 0;*/
-    /*border: 5px solid red;*/
+    margin: 0;
+
+    border-bottom: 1px solid chocolate;
 }
 
 ul {
@@ -29,16 +33,53 @@ ul {
 
     list-style: none;
     color: white;
+    font-size: 18px;
 
     gap: 16px;
+
+    margin: 25px; /*DEPOIS SUBSTITUIR POR UM SPACE-AROUND/BETWEEN*/
 
     justify-content: flex-end;
 
 }
 
-
 li {
     /*border: 2px solid red;*/
-    margin-right: 16px;
 
+    margin-bottom: 25px;
+}
+
+
+
+/* segunda caixa */
+
+.yordles {
+    flex: auto;
+    height: 250px;
+    background-color: saddlebrown;
+
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.imgs {
+    display: flex;
+    border: 5px solid green;
+
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs img {
+    height: 10vh;
+
+    margin: 25px;
+
+    flex: 0 0 auto;
+
+    /*border: 5px solid red;*/
 }
