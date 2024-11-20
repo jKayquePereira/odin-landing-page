@@ -37,21 +37,26 @@ ul {
 
     gap: 16px;
 
-    margin: 25px; /*DEPOIS SUBSTITUIR POR UM SPACE-AROUND/BETWEEN*/
+    /*padding-right: 25px; !*DEPOIS SUBSTITUIR POR UM SPACE-AROUND/BETWEEN*!*/
 
     justify-content: flex-end;
+
+    height: 95px;
+    margin: 0;
+    /*border: 5px solid red;*/
+    align-items: center;
 
 }
 
 li {
     /*border: 2px solid red;*/
 
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 
 
-/* segunda caixa */
+ /*segunda caixa*/
 
 .yordles {
     flex: auto;
@@ -67,7 +72,8 @@ li {
 
 .imgs {
     display: flex;
-    border: 5px solid green;
+    height: 250px;
+    /*border: 5px solid green;*/
 
     flex-flow: row wrap;
     justify-content: center;
