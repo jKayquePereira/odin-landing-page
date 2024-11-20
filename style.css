@@ -15,7 +15,7 @@ body {
 }
 
 
-/* primeira caixa*/
+/*primeira caixa*/
 
 .links {
     flex: auto;
@@ -54,14 +54,12 @@ li {
     /*margin-bottom: 25px;*/
 }
 
-
-
  /*segunda caixa*/
 
 .yordles {
     display: flex;
     flex: auto;
-    height: 250px;
+    height: 600px;
     background-color: saddlebrown;
 
     margin: 0;
@@ -76,7 +74,7 @@ li {
 
 .imgs {
     display: flex;
-    height: 250px;
+    height: 250px; /* aumentar depois */
     /*border: 5px solid green;*/
 
     flex-flow: row wrap;
@@ -91,3 +89,5 @@ li {
 
     /*border: 5px solid red;*/
 }
+
+/*terceira caixa*/
