@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto", serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 300vh;
+    background-color: chocolate;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.links {
+    flex: auto;
+    background-color: saddlebrown;
+
+    height: 150px;
+
+    /*margin: 0;*/
+    /*border: 5px solid red;*/
+}
+
+ul {
+    display: flex;
+
+    list-style: none;
+    color: white;
+
+    gap: 16px;
+
+    justify-content: flex-end;
+
+}
+
+
+li {
+    /*border: 2px solid red;*/
+    margin-right: 16px;
+
+}
