@@ -5,7 +5,9 @@ body {
     padding: 0;
 
     height: 180vh;
-    background-color: chocolate;
+    background-color: #b8e3e9;
+
+    color: #c71585;
 
 }
 
@@ -19,20 +21,20 @@ body {
 
 .links {
     flex: auto;
-    background-color: saddlebrown;
+    background-color: #c71585;
 
     height: 100px;
 
     margin: 0;
 
-    border-bottom: 1px solid chocolate;
+    border-bottom: 1px solid #b8e3e9;
 }
 
 ul {
     display: flex;
 
     list-style: none;
-    color: white;
+    color: #b8e3e9;
     font-size: 18px;
 
     gap: 16px;
@@ -51,7 +53,7 @@ ul {
 li {
     /*border: 2px solid red;*/
 
-    /*margin-bottom: 25px;*/
+    margin-right: 25px;
 }
 
  /*segunda caixa*/
@@ -60,7 +62,7 @@ li {
     display: flex;
     flex: auto;
     height: 600px;
-    background-color: saddlebrown;
+    background-color: #c71585;
 
     margin: 0;
     padding: 0;
@@ -76,15 +78,17 @@ li {
 
     flex-flow: row wrap;
 
-    max-width: 487px;
+    max-width: 779px;
+
+    gap: 300px;
+
 }
 
 .imgs img {
-    height: 15vh;
-    margin: 25px;
+    height: 30vh;
     flex: 0 0 auto;
 
-    /*border: 5px solid red;*/
+    border: 2px solid #b8e3e9;
 }
 
 /*terceira caixa*/
@@ -98,7 +102,7 @@ li {
 
     flex: auto;
 
-    background-color: chocolate;
+    background-color: #b8e3e9;
 }
 
 /*quarta caixa*/
@@ -109,7 +113,7 @@ li {
 
     height: 400px;
 
-    background-color: saddlebrown;
+    background-color: #c71585;
 
     justify-content: center;
 }
@@ -117,7 +121,7 @@ li {
 .elementos {
 
     height: 200px;
-    background-color: chocolate;
+    background-color: #b8e3e9;
 
     width: 1000px;
 
@@ -130,16 +134,16 @@ li {
     /*align-items: center;*/
 
     height: 190px;
-    border: 5px solid red
+    /*border: 5px solid red*/
 }
 
 .baixo-botao button {
 
     margin-left: 50px;
 
-    background-color: saddlebrown;
-    border-color: saddlebrown;
-    color: white;
+    background-color: #c71585;
+    border-color: #c71585;
+    color: #b8e3e9;
 }
 
 /*quinta caixa*/
