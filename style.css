@@ -56,6 +56,11 @@ li {
     margin-right: 25px;
 }
 
+a {
+    color: #b8e3e9;
+    text-decoration: none;
+}
+
  /*segunda caixa*/
 
 .yordles {
@@ -131,15 +136,22 @@ li {
 .baixo-botao {
     display: flex;
     flex-flow: row wrap;
-    /*align-items: center;*/
+    align-items: center;
 
-    height: 190px;
+    height: 50px;
     /*border: 5px solid red*/
+    margin-top: 25px;
+    margin-left: 22px;
+
 }
 
 .baixo-botao button {
+    display: flex;
+    align-items: center;
 
-    margin-left: 50px;
+    margin-left: 25px;
+
+    height: 50px;
 
     background-color: #c71585;
     border-color: #c71585;
