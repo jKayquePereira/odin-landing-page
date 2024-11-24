@@ -1,2 +1,2 @@
-# odin-landing-page
-projeto de landing page do the odin project
+# projeto: Landing Page
+Projeto do currículo do The Odin Project
